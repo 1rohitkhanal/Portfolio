@@ -1,3 +1,15 @@
-this is my official portrfolio. 
-the website for this is 
-(rohit.com)[https://khanalrohit.com.np]
+# Rohit Khanal Portfolio
+
+🚀 **Live Website:**  
+👉 [rohitkhanal.com](https://rohitkhanal.com.np)
+
+## 📌 About
+This is my personal portfolio website showcasing my projects, skills, and experience.
+
+## 🛠 Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+## 📬 Contact
+Feel free to reach out!
