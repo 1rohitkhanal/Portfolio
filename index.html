@@ -959,21 +959,21 @@
         </div>
       </div>
 
-      <div class="contact-form-side">
-        <div class="form-row">
-          <label>// your name</label>
-          <input type="text" placeholder="John Doe">
-        </div>
-        <div class="form-row">
-          <label>// email address</label>
-          <input type="email" placeholder="john@email.com">
-        </div>
-        <div class="form-row">
-          <label>// message</label>
-          <textarea placeholder="Hey Rohit, I'd like to work with you on..."></textarea>
-        </div>
-        <button class="form-submit" onclick="alert('Message sent! (Connect this to a backend or Formspree)')">send_message() →</button>
-      </div>
+    <form class="contact-form-side" action="https://formspree.io/f/xzdywzry" method="POST">
+  <div class="form-row">
+    <label>// your name</label>
+    <input type="text" name="name" placeholder="John Doe" required>
+  </div>
+  <div class="form-row">
+    <label>// email address</label>
+    <input type="email" name="email" placeholder="john@email.com" required>
+  </div>
+  <div class="form-row">
+    <label>// message</label>
+    <textarea name="message" placeholder="Hey Rohit, I'd like to work with you on..." required></textarea>
+  </div>
+  <button type="submit" class="form-submit">send_message() →</button>
+</form>
     </div>
   </div>
 </section>
